@@ -1,0 +1,410 @@
+body {
+    font-family: 'Graphik', 'Helvetica', Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #292b2c;
+    -moz-osx-font-smoothing: grayscale;
+    margin: 0 0 0 0;
+}
+
+.content-wrapper {
+    overflow-x: hidden;
+    flex-grow: 1;
+
+}
+
+.navigation {
+    justify-content: flex-end;
+    display: flex;
+    position: absolute;
+    top: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 40;
+    transition: background-color .2s ease-in,opacity .2s ease-in;
+}
+
+.navigationRightItems {
+    flex-direction: row-reverse;
+    display: flex;
+    padding-right: 40px;
+}
+
+button {
+    line-height: 1.15;
+    border-radius: 0;
+    color: #fff;
+}
+
+.login {
+    background: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 23px 0 17px;
+    margin: 4px 0px;
+    border: none;
+    display: block;
+    text-transform: uppercase;
+}
+
+.masthead {
+    padding-top: 80px;
+    min-height: 660px;
+    max-height: 100vh;
+    background-image: linear-gradient(135deg, #231437 0%, #2c385e 50%, #336e6b 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-position: center top;
+    background-size: cover;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.ImageBackground {
+    background-image: url("https://www.hulu.com/static/hitch/s3/attachments/ckbvd0gyz00xg19mlsu9nayv7-homepage-masthead-test-desktop-3200x1320-v4c-6-16-20.jpg");
+    background-position: right bottom;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    box-sizing: inherit;
+
+}
+
+.masthead-container {
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    position: relative;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    color: #fff;
+    line-height: 1.3;
+    z-index: 0;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1600px;
+    box-sizing: inherit;
+    width: 670px;
+}
+
+.Masthead_preheadline {
+    padding-bottom: 17px;
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.Ribbon_eyebrow {
+    color: #2DBD9D;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    line-height: 13px;
+    padding-bottom: 8px;
+    text-transform: uppercase;
+}
+
+.Masthead_headline{
+    font-weight: 300;
+    margin-bottom: 0;
+    letter-spacing: -0.5px;
+    font-size: 56px;
+    line-height: 64px;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+.Masthead_subheadline {
+    font-size: 22px;
+    line-height: 30px;
+    margin-top: 16px;
+}
+
+.Masthead_secondarymessage {
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 20px;
+    font-weight: normal;
+}
+
+.Masthead_input {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.6em;
+}
+
+.button--cta {
+    transform: translateY(0);
+    transition: box-shadow 0.2s ease, transform 0.1s ease;
+    text-transform: uppercase;
+    white-space: nowrap;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button--white {
+    color: #040505;
+    background: #fff;
+    height: 56px;
+    min-width: 136px;
+    padding: 0 32px;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 14px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.Masthead_input-cta {
+    display: inline-block;
+}
+
+.Masthead_legal {
+    width: 536px;
+    align-self: center;
+    margin-top: 16px;
+    color: #fff;
+    opacity: 0.6;
+    font-size: 10px;
+    font-weight: normal;
+    line-height: 16px;
+    box-sizing: inherit;
+}
+
+.Ribbon {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 40px;
+    padding-left: 40px;
+    z-index: 1;
+    width: 100%;
+    background: linear-gradient(318.68deg, #0F495C 0%, #0D3640 49.72%, #08141F 100%);
+    box-sizing: inherit;
+
+}
+
+.row {
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1520px;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: inherit;
+}
+
+.Ribbon_Left {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 25%;
+    max-width: 25%;
+    padding-left: 40px;
+}
+
+.Ribbon__brand-img {
+    max-width: 355px;
+    width: 100%;
+    padding-left: 0;
+    border-style: none;
+    box-sizing: inherit;
+}
+
+.Ribbon_info {
+    padding-left: 30px;
+    text-align: left;
+    box-sizing: border-box;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    flex-shrink: 0;
+    padding-right: .5rem;
+    flex-basis: 58.33333%;
+    max-width: 58.33333%;
+}
+
+.Ribbon_eyebrow {
+    color: #2DBD9D;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    line-height: 13px;
+    padding-bottom: 8px;
+}
+
+.Ribbon_details-container {
+    margin-top: 5px;
+    box-sizing: inherit;
+}
+
+.Ribbon-showDT {
+    font-size: 24px;
+    line-height: 32px;
+    display: inline;
+    color: #fff;
+}
+
+.Ribbon_learn {
+    display: block;
+    padding-top: 5px;
+    box-sizing: inherit;
+}
+
+.Ribbon a {
+    color: #fff;
+    opacity: 0.7;
+    text-decoration: underline;
+}
+
+.Ribbon_learn a {
+    font-size: 14px;
+    line-height: 15px;
+}
+
+a {
+    cursor: pointer;
+}
+
+.Ribbon_button {
+    padding-top: 20px;
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    box-sizing: border-box;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    flex-shrink: 0;
+    padding-right: 40px;
+    flex-basis: 16.66667%;
+    max-width: 16.66667%;
+}
+
+.Ribbon_button-container {
+    box-sizing: inherit;
+}
+
+.Ribbon_cta-button {
+    padding-left: 32px;
+    padding-right: 32px;
+    color: #FFFFFF;
+    background: transparent;
+    border: 2px solid #FFFFFF;
+}
+
+.Ribbon_button-terms {
+    box-sizing: inherit;   
+}
+
+.Ribbon_legal-modal {
+    font-size: 10px;
+    box-sizing: inherit;  
+}
+
+.library {
+    background-color: black;
+    position: relative;
+    box-sizing: inherit;
+
+}
+
+.library_header {
+    max-width: 996px;
+    margin: 0 auto;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 2;
+    box-sizing: inherit;
+}
+
+.library_content {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 88px;
+    padding-right: 20px;
+    padding-left: 20px;
+    box-sizing: inherit;
+}
+
+.library_eyebrow {
+    color: #2DBD9D;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.86px;
+    line-height: 12px;
+    margin-bottom: 16px;
+    box-sizing: inherit;
+}
+
+.library_title {
+    color: #FCFCFC;
+    font-size: 48px;
+    line-height: 53px;
+    letter-spacing: -0.5px;
+    font-weight: bolder;
+    margin-bottom: 16px;
+    box-sizing: inherit;
+}
+
+.library_description {
+    max-width: 680px;
+    margin: 0 auto;
+    padding-top: 16px;
+    font-size: 16px;
+    line-height: 24px;
+    box-sizing: inherit;
+}
+
+.library_grid-container {
+    max-width: 100%;
+    padding: 0 0 100px;
+    background-color: #000;
+}
+
+.library_grid {
+    justify-content: center;
+    grid-template-columns: repeat(4, 295px);
+    grid-template-rows: auto;
+    display: grid;
+    column-gap: 20px;
+    row-gap: 20px;
+    box-sizing: inherit;
+}
+
+.library_grid-item {
+    box-sizing: inherit;
+}
+
+.library_grid-item button {
+    font-family: Graphik;
+    background: none;
+    margin: 0;
+    padding: 0;
+    border: none;
+    color: #fff;
+}
+

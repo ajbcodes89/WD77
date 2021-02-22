@@ -1,0 +1,46 @@
+body {
+    background-image:url("https://4.bp.blogspot.com/-2HrHJld97sQ/VGSxfPk4iCI/AAAAAAABaCs/RMg1OZCXLKQ/s1600/33.jpg");
+}
+#title {
+    text-align: center;
+    line-height: .06;
+    margin-top: 50px;
+    font-family: "Optima";
+    font-style: "bold";
+    font-size: 50px;
+    -webkit-text-stroke: .75px red;
+}
+#andy {
+    text-align: center;
+    line-height: .6;
+    margin-top: 10;
+    font-family: "Geneva";
+    color: white;
+    -webkit-text-stroke: black .5px;
+}
+.txt {
+    font-family: "geneva";
+    border-style: groove;
+    border-color: red;
+    color: white;
+    -webkit-text-stroke: black .5px;
+    max-width: 60%;
+    text-align: center;
+    margin:auto;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    margin-top: 20px;
+    background-color: rgba(110,110,110,0.75);
+}
+.imgs {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#img1 {
+    max-width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15;
+}
